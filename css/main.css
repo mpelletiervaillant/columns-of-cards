@@ -29,7 +29,7 @@ margin: 0;
   width: 25%;
   list-style-type: none;
   margin: 0;
-  min-height:25em;
+  min-height: 26em;
   border-left: .5px solid #333;
   border-right: .5px solid #333;
   padding: .75rem;
@@ -58,4 +58,27 @@ img {
 
 ul {
   list-style-type: none;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  font-family: Open Sans, sans-serif;
+  font-weight: bold;
+  background-color: #333;
+  border: 3px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: .4em .75em .3em;
+  font-size: 1.125rem;
+  margin: 1.5rem;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: black;
+  border-color: black;
 }
