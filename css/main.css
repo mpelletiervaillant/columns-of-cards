@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   font-family: Open Sans, sans-serif;
   font-weight: bold;
@@ -40,7 +44,7 @@ margin: 0;
 }
 
 .list-two {
-  background-color: #e2e2e2;
+  background-color: #ccc;
 }
 
 .list-three {
@@ -81,4 +85,8 @@ ul {
 .btn:hover {
   background-color: black;
   border-color: black;
+}
+
+div {
+  text-align: left;
 }
