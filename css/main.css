@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: Open Sans, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  font-family: Open Sans, sans-serif;
+}
+
+.list {
+  float: left;
+  width: 25%;
+  list-style-type: none;
+  margin: 0;
+}
+
+.list-one {
+  background-color: #f2f2f2;
+}
+
+.list-two {
+  background-color: #e2e2e2;
+}
+
+.list-three {
+  background-color: #aaa;
+}
+
+.list-four {
+  background-color: #999;
+}
+img {
+  width: 100px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
